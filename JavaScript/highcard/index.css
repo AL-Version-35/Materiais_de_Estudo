@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/360_F_325384191_sg1D5lYWfRedGQsBm8xIHnsSAUUUVxGE.jpg");
+    background-size: cover;
+    font-family: "Exo 2", "sans serif";
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: gold;
+}
+
+button {
+    background-color: darkred;
+    border-style: solid;
+    border-color: gold;
+    cursor: pointer;
+    color: gold;
+    padding: 10px;
+}
+
+button#newDeck {
+    align-self: flex-start;
+}
+
+button#drawCards {
+    font-size: 1.1em;
+    align-self: stretch;
+}
+
+div.card-slot {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 229px;
+    width: calc(210px * 5 / 7)
+}
+
+div.card-slot:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+label {
+    vertical-align: middle;
+}
+
+img.card-image {
+    height: 210px;
+    width: calc(210px * 5 / 7);
+}
+
+div.top {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+div.top>p {
+    margin: 10px;
+    margin-left: 15px;
+}
+
+button:disabled {
+    background-color: #8b8b8b;
+    border-color: #fcfcfc;
+    color: #fcfcfc;
+    cursor: default;
+}
+
+h3 {
+    margin: 10px;
+}
