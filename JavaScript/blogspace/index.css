@@ -1,0 +1,58 @@
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: turquoise;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#blogpost {
+    padding-top: 30px 10px 10px;
+}
+
+#posts {
+    padding: 10px;
+}
+
+form {
+    padding: 60px 15px 15px;
+    display: grid;
+    background-color: turquoise;
+}
+
+input {
+    padding: 5px;
+}
+
+textarea,
+p,
+label {
+    font-weight: 600;
+}
+
+textarea {
+    font-family: "Karla", sans-serif;
+}
+
+input#post-title,
+textarea#post-text {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="" />
+    <meta name="author" content="Lucas 'Megalowie' Alves" />
+    <meta name="description" content="Aplicação simuladora de formato em blog" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@200">
+    <link rel="stylesheet" href="./index.css">
+    <title>Blogspace</title>
+</head>
+
+<body>
+    <nav>
+        <h1 id="title">BlogSpace</h1>
+    </nav>
+    <form id="new-post">
+        <label for="post-title">Título: </label>
+        <input type="text" placeholder="Qual é o título?" id="post-title">
+        <label for="post-text">Postagem: </label>
+        <textarea id="post-text" placeholder="O que está pensando?..." rows="5"></textarea>
+        <button>Postar</button>
+    </form>
+    <script src="./index.js"></script>
+    <div id="posts"></div>
+</body>
+
+</html>
